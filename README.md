@@ -45,15 +45,26 @@ The synthetic dataset is generated from a seeded distribution. The histogram use
 
 ### 04 // Things I build for fun
 
-#### Featured community project · Jestem od Czesia
+#### Featured analytics project · Jestem od Czesia
 
 <a href="https://stats.odczesia.run" title="Explore the Jestem od Czesia running club archive">
-  <img src="./assets/joc-archive.png" width="100%" alt="Jestem od Czesia: a running-club archive from Swarzędz, Poland. Visit stats.odczesia.run." />
+  <img src="./assets/joc-archive.png" width="100%" alt="Jestem od Czesia: historical Strava club leaderboards, progress tracking, customizable athlete profiles, medals, PBs and race histories in Swarzędz, Poland." />
 </a>
 
-A running club, a community, and a shared history worth preserving. **[Jestem od Czesia](https://stats.odczesia.run)** is an online archive of the running club based in **Swarzędz, Poland**, where I'm involved with the local running community. One of the projects closest to home. 👟
+**[Jestem od Czesia Stats](https://stats.odczesia.run)** is a data-driven archive for our running club in **Swarzędz, Poland**, built around statistics from the club on Strava. Strava's *club leaderboard* is focused on the current week; I wanted a way to revisit previous weeks, compare our progress over time, and celebrate the people behind those kilometers.
 
-**[Explore the archive at stats.odczesia.run](https://stats.odczesia.run)**
+The result goes beyond an archive:
+
+- **Historical club rankings:** browse previous weeks, distances, participation, leaderboards and weekly highlights.
+- **Progress and trends:** revisit earlier results, see who improved, and follow the club's evolving performance.
+- **Personal athlete profiles:** each club member can personalize their profile and collect achievements and medals.
+- **PBs and race history:** keep personal bests and a history of race starts together on each runner's profile.
+
+<a href="https://stats.odczesia.run" title="See Jestem od Czesia weekly rankings, archive, and athlete profiles">
+  <img src="./assets/joc-gallery.png" width="100%" alt="Real screenshots: Jestem od Czesia weekly standings, historical weekly archives and individual runner profiles with achievements, PBs and 12-week progression charts." />
+</a>
+
+**[Explore the live running-club dashboard →](https://stats.odczesia.run)** · Built for runners, by a runner. 👟
 
 #### More experiments
 

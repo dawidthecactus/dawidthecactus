@@ -79,8 +79,9 @@ def build_brand_assets():
     # palette GIF optimizes for README compatibility; small pulsing status LED
     pframes=[im.quantize(colors=128,method=Image.Quantize.MEDIANCUT) for im in frames]
     pframes[0].save(OUT/'hero.gif',save_all=True,append_images=pframes[1:],duration=200,loop=0,optimize=True,disposal=2)
-    archive_card().save(OUT/'joc-archive.png',optimize=True)
-    parts=[OUT/'hero.png',OUT/'identity.png',OUT/'milestones.png',OUT/'analytics-demo.png',OUT/'joc-archive.png',OUT/'projects.png',OUT/'office-easter-egg.png']
+    # JoC project artwork is generated from real screenshots and retained separately.
+    # Do not overwrite it here; see docs/SETUP.md for the gallery inputs.
+    parts=[OUT/'hero.png',OUT/'identity.png',OUT/'milestones.png',OUT/'analytics-demo.png',OUT/'joc-archive.png',OUT/'joc-gallery.png',OUT/'projects.png',OUT/'office-easter-egg.png']
     pieces=[Image.open(x).convert('RGB') for x in parts if x.exists()]
     gap=18
     preview=Image.new('RGB',(W,sum(p.height for p in pieces)+gap*(len(pieces)+1)),'#0B100D')

@@ -10,5 +10,13 @@
   "project_visibility_note": "Projects are a mix of prototypes and private work; public demos coming when ready.",
   "running_club_name": "Jestem od Czesia",
   "running_club_location": "Swarzędz, Poland",
-  "running_club_archive_url": "https://stats.odczesia.run"
+  "running_club_archive_url": "https://stats.odczesia.run",
+  "running_club_archive_description": "Historical Strava club week-by-week stats, progress, athlete profiles, medals, PBs and race history",
+  "running_club_features": [
+    "weekly history and club rankings",
+    "progress comparisons",
+    "customizable member profiles",
+    "achievements and medals",
+    "personal bests and race history"
+  ]
 }

@@ -43,6 +43,15 @@ The file `assets/hero.gif` is generated from `art/cactus-runner-backdrop.png` us
 
 `assets/joc-archive.png` is the featured community project card. It links to `https://stats.odczesia.run`. The live site was provided by the project owner; no content from the live site was scraped or used to invent website metrics.
 
-For a full rebuild: `python scripts/build_assets.py`. To rebuild just the hero and community card: `python scripts/build_brand_assets.py`. A full rebuild updates the sample histogram too.
+For a full rebuild: `python scripts/build_assets.py`. To rebuild the hero: `python scripts/build_brand_assets.py`. The JoC screenshot cards use `python scripts/build_joc_assets.py`. A full rebuild updates the sample histogram too.
 
 The current README retains the half-marathon **1:30:00** target from the user's published GitHub README as of 2026-11-02. To change it, edit `profile.json`, run the generator, and update the two README textual mentions manually.
+
+
+## Version 2.2: real Jestem od Czesia features & screenshots
+
+`assets/joc-archive.png` and `assets/joc-gallery.png` now use actual screenshots supplied by the club-dashboard author, not fabricated charts. Cropped source images live in `art/joc-screenshots/`. The athlete screenshot crop omits the visible athlete name.
+
+The club archive keeps historic weekly *club leaderboard* snapshots and provides progress comparisons, customizable runner profiles, medals, race PBs and start history. This is not a claim that Strava deletes an athlete's old activities; it addresses the limited historical visibility of the *club leaderboard*.
+
+The `build_brand_assets.py` script intentionally no longer overwrites these screenshot-based JoC assets. Update the three cropped screenshots in `art/joc-screenshots/` and run `python scripts/build_joc_assets.py` if the site is redesigned.
