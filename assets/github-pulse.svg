@@ -4,13 +4,13 @@
 <text x="916" y="46" font-size="15" font-family="Arial, sans-serif" font-weight="400" fill="#9AADA0">BOTANICAL TELEMETRY / LIVE DATA</text>
 <rect x="34" y="78" width="364" height="137" rx="15" fill="#15241A" stroke="#2C4633" />
 <text x="57" y="117" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#9AADA0">PUBLIC REPOSITORIES</text>
-<text x="57" y="184" font-size="56" font-family="Arial, sans-serif" font-weight="700" fill="#58C27D">—</text>
+<text x="57" y="184" font-size="56" font-family="Arial, sans-serif" font-weight="700" fill="#58C27D">18</text>
 <rect x="414" y="78" width="364" height="137" rx="15" fill="#15241A" stroke="#2C4633" />
 <text x="437" y="117" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#9AADA0">STARS RECEIVED</text>
-<text x="437" y="184" font-size="56" font-family="Arial, sans-serif" font-weight="700" fill="#58C27D">—</text>
+<text x="437" y="184" font-size="56" font-family="Arial, sans-serif" font-weight="700" fill="#58C27D">0</text>
 <rect x="794" y="78" width="364" height="137" rx="15" fill="#15241A" stroke="#2C4633" />
 <text x="817" y="117" font-size="18" font-family="Arial, sans-serif" font-weight="400" fill="#9AADA0">ACTIVE IN 90 DAYS</text>
-<text x="817" y="184" font-size="56" font-family="Arial, sans-serif" font-weight="700" fill="#58C27D">—</text>
-<text x="35" y="252" font-size="19" font-family="Arial, sans-serif" font-weight="400" fill="#B7ED87">WAITING FOR FIRST DATA SYNC</text>
-<text x="35" y="278" font-size="13" font-family="Arial, sans-serif" font-weight="400" fill="#9AADA0">RUN THE GITHUB ACTIONS WORKFLOW TO ACTIVATE</text>
+<text x="817" y="184" font-size="56" font-family="Arial, sans-serif" font-weight="700" fill="#58C27D">2</text>
+<text x="35" y="252" font-size="19" font-family="Arial, sans-serif" font-weight="400" fill="#B7ED87">TOP LANGUAGES   /   Ruby, HTML, Python, Kotlin</text>
+<text x="35" y="278" font-size="13" font-family="Arial, sans-serif" font-weight="400" fill="#9AADA0">UPDATED UTC: 2026-11-02 13:30</text>
 </svg>
