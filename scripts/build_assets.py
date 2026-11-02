@@ -215,5 +215,7 @@ def main():
     m=milestone_frame(1);m.save(OUT/'milestones.png',optimize=True)
     save_gif('milestones.gif',[milestone_frame(i/22) for i in range(22)],duration=130)
     identity();analytic();projects();easter();preview()
+    from build_brand_assets import build_brand_assets
+    build_brand_assets()
     for p in sorted(OUT.glob('*')):print(p.name,round(p.stat().st_size/1024),'KB')
 if __name__=='__main__':main()

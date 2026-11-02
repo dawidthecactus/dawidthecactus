@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero.gif" width="100%" alt="Dawid The Cactus: Data by profession, code for fun, running for sanity. A cactus runs beside an animated green pace chart." />
+  <img src="./assets/hero.gif" width="100%" alt="DAWIDTHECACTUS: Data by profession, code for fun, running for sanity. Animated deep-green analytics banner with a running cactus wearing sunglasses and a GPS watch." />
 </div>
 
 <p align="center">
@@ -8,11 +8,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/dawidthecactus?tab=repositories">Explore my repositories</a>
+  <a href="https://stats.odczesia.run">Jestem od Czesia archive</a>
   ·
-  <a href="#-analytics-playground">Analytics playground</a>
+  <a href="#03--analytics-playground">Analytics playground</a>
   ·
-  <a href="#-runningexe">Running.exe</a>
+  <a href="#04--things-i-build-for-fun">Side projects</a>
+  ·
+  <a href="#05--runningexe">Running.exe</a>
 </p>
 
 ### 01 // The person behind the data
@@ -25,9 +27,9 @@ When I clock out, I sometimes keep building anyway. Just for fun. Usually someth
 
 ### 02 // Cactus metrics
 
-<img src="./assets/milestones.gif" width="100%" alt="11 completed half marathons, visualized as 11 illuminated green milestones. Current long-term target: 1 hour 20 minutes for a half marathon." />
+<img src="./assets/milestones.gif" width="100%" alt="11 completed half marathons, visualized as 11 illuminated green milestones. Half-marathon target in the graphic is configured from profile.json." />
 
-**11** half marathons completed. Current long-term ambition: **1:30:00** for 21.0975 km. I like races, but I probably like analyzing them almost as much. 🌵
+**11** half marathons completed. Current half-marathon target: **1:30:00** for 21.0975 km. I like races, but I probably like analyzing them almost as much. 🌵
 
 ### 03 // Analytics playground
 
@@ -37,11 +39,23 @@ When I clock out, I sometimes keep building anyway. Just for fun. Usually someth
 
 <details>
 <summary><strong>How the demo works</strong></summary>
-<br>
+
 The synthetic dataset is generated from a seeded distribution. The histogram uses five-minute intervals, and median / 90th percentile values are calculated from those same generated numbers. A summary is stored in <a href="./docs/synthetic-data.json">docs/synthetic-data.json</a>. No real participants are represented.
 </details>
 
 ### 04 // Things I build for fun
+
+#### Featured community project · Jestem od Czesia
+
+<a href="https://stats.odczesia.run" title="Explore the Jestem od Czesia running club archive">
+  <img src="./assets/joc-archive.png" width="100%" alt="Jestem od Czesia: a running-club archive from Swarzędz, Poland. Visit stats.odczesia.run." />
+</a>
+
+A running club, a community, and a shared history worth preserving. **[Jestem od Czesia](https://stats.odczesia.run)** is an online archive of the running club based in **Swarzędz, Poland**, where I'm involved with the local running community. One of the projects closest to home. 👟
+
+**[Explore the archive at stats.odczesia.run](https://stats.odczesia.run)**
+
+#### More experiments
 
 <img src="./assets/projects.png" width="100%" alt="Projects: RunStats Polska (race analytics), Signature Lab (SVG design and motion), InvoicePilot AI (intelligent documents), and fballers-lab (game mechanics and optimization)." />
 
@@ -55,6 +69,7 @@ Some of these are private experiments or work in progress, so I won't pretend th
 RUNNING.MODE       enabled
 FINISH_LINES       11 half marathons
 CURRENT_QUEST      21.0975 km in 1:30:00
+LOCAL_COMMUNITY    Jestem od Czesia / Swarzędz
 SIDE_EFFECTS       race spreadsheets, charts, too many running shoes
 ```
 
@@ -63,10 +78,10 @@ The overlap between running and analytics is suspiciously large: pacing, progres
 ### 06 // Office mode
 
 <a href="https://giphy.com/gifs/theoffice-ZfK4cXKJTTay1Ava29">
-  <img src="./assets/office-easter-egg.png" width="100%" alt="Bears. Beets. Business Intelligence. Assistant to the Regional Analyst. Click to open an official The Office Dwight reaction GIF." />
+  <img src="./assets/office-easter-egg.png" width="100%" alt="Bears. Beets. Business Intelligence. Assistant to the Regional Analyst. Click to open a The Office Dwight reaction GIF." />
 </a>
 
-Yes, that panel links to a Dwight GIF from the official *The Office* GIPHY account. No copyrighted footage is bundled with this repository.
+Yes, that panel links to a Dwight GIF. No copyrighted footage is bundled with this repository.
 
 ### 07 // GitHub pulse
 

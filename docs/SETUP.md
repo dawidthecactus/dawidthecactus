@@ -35,3 +35,14 @@ You can replace the linked original card with an image embed from the official h
 ## Note on GitHub SVG animations
 
 A regular static SVG is used for GitHub Pulse. Animated artwork is exported as GIF because dynamic SVG animation can be browser/renderer-dependent in README previews.
+
+
+## Version 2.1: sunglasses cactus & Jestem od Czesia archive
+
+The file `assets/hero.gif` is generated from `art/cactus-runner-backdrop.png` using `scripts/build_brand_assets.py`. You can update the text and colors there. The original Stitch mascot mockup is retained for design reference under `docs/stitch/` and is not served in the README.
+
+`assets/joc-archive.png` is the featured community project card. It links to `https://stats.odczesia.run`. The live site was provided by the project owner; no content from the live site was scraped or used to invent website metrics.
+
+For a full rebuild: `python scripts/build_assets.py`. To rebuild just the hero and community card: `python scripts/build_brand_assets.py`. A full rebuild updates the sample histogram too.
+
+The current README retains the half-marathon **1:30:00** target from the user's published GitHub README as of 2026-11-02. To change it, edit `profile.json`, run the generator, and update the two README textual mentions manually.
